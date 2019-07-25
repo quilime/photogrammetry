@@ -157,7 +157,7 @@ The best way to learn is to practice! Here are some ideas for things to scan.
 
 
 
-Refer to the article [Making Models with Photogrammetry by Austin Mason](http://media.quilime.com/pg/pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
+Refer to the article [Making Models with Photogrammetry](http://media.quilime.com/pg/pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
 
   1. Import photos
   2. Inspect loaded images, removing unnecessary images
