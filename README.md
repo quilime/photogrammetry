@@ -11,7 +11,7 @@ www [gabrieldunne.com](http://gabrieldunne.com)
 twitter [@gabrieldunne](https://twitter.com/gabrieldunne)  
 ig [@gabrieldunne](https://instagram.com/gabrieldunne)  
 
-![](./img/screen.PNG)
+![](img/screen.PNG)
 
 ###### Headlands Bunker Scan (Dense Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
 
@@ -26,7 +26,7 @@ ig [@gabrieldunne](https://instagram.com/gabrieldunne)
 
 Creating 3D objects from 2D photographs requires a specific type of image capture. The process allows you to scan everything from objects and people, to architecture and landscapes. This workshop goes over the entire process from start to finish, including photographic techniques, lighting conditions, and post-processing methods to generate accurate 3D models from photos. There are a few different strategies you can use when acquiring images, and this workshop provides a starting point for you to scan objects and architectural spaces.
 
-![](./img/sfm.png)
+![](img/sfm.png)
 
 ###### Structure from Motion (SfM) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
 
@@ -72,7 +72,7 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
 
 # Photography Technique
 
-![](./img/screen3.PNG)
+![](img/screen3.PNG)
 
 ###### Headlands Bunker Scan (Sparse Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
 
@@ -105,7 +105,7 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
 
 ## Guidelines
 
-![](./img/agiguide.jpg)
+![](img/agiguide.jpg)
 
 ###### Source: [Agisoft Photoscan Manual](https://www.agisoft.com/pdf/photoscan-pro_1_4_en.pdf)
 
@@ -128,7 +128,7 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
 
 ## Practice
 
-![](./img/screen4.PNG)
+![](img/screen4.PNG)
 
 ###### Headlands Rock Scan, (Sparse Point Cloud). Agisoft Screenshot. Source: [Gabriel Dunne](http://gabrieldunne.com) 2019
 
