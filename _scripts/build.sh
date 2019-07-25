@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cp index.md docs/README.md
+cp index.md README.md
 
 jekyll build
