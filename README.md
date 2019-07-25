@@ -198,6 +198,8 @@ I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm p
 
 ## Articles and References
 
+For educational use only. I claim no ownership or rights to this material.
+
   - [3d Scan Anything using a Camera and Photogrammetry with Autodesk ReMake](./pdf/3D-Scan-Anything-Using-a-Camera-Photogrammetry-With-Autodesk-Remake.pdf)
   - [3D Scanning Class](./pdf/3D-Scanning-Class.pdf)
   - [3D Scanning Photogrammetry with a Rotating Platform](./pdf/3D-scanning-Photogrammetry-with-a-rotating-platform.pdf)
