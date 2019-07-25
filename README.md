@@ -28,7 +28,7 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
 
 ![](./img/sfm.png)
 
-###### Structure from Motion (SfM) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
+###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
 
 ## Schedule
 
@@ -157,7 +157,7 @@ The best way to learn is to practice! Here are some ideas for things to scan.
 
 
 
-Refer to the article [Making Models with Photogrammetry](http://media.quilime.com/pg/pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
+Refer to the article [Making Models with Photogrammetry by Austin Mason](http://media.quilime.com/pg/pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
 
   1. Import photos
   2. Inspect loaded images, removing unnecessary images
@@ -198,43 +198,43 @@ I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm p
 
 ## Articles and References
 
-  - [3D-Scan-Anything-Using-a-Camera-Photogrammetry-With-Autodesk-Remake.pdf](./pdf/3D-Scan-Anything-Using-a-Camera-Photogrammetry-With-Autodesk-Remake.pdf)
-  - [3D-Scanning-Class.pdf](./pdf/3D-Scanning-Class.pdf)
-  - [3D-scanning-Photogrammetry-with-a-rotating-platform.pdf](./pdf/3D-scanning-Photogrammetry-with-a-rotating-platform.pdf)
-  - [3d-Scan-Anything-Using-Just-a-Camera.pdf](./pdf/3d-Scan-Anything-Using-Just-a-Camera.pdf)
-  - [Aaron_Pattee--Photogrammetric_Procedure_for_Modeling_Castles_and_Ceramics_2016_1.pdf](./pdf/Aaron_Pattee--Photogrammetric_Procedure_for_Modeling_Castles_and_Ceramics_2016_1.pdf)
-  - [Agisoft-BASIC_TUTORIAL_FOR_AGISOFT_PHOTOSCAN_ENG.pdf](./pdf/Agisoft-BASIC_TUTORIAL_FOR_AGISOFT_PHOTOSCAN_ENG.pdf)
-  - [Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf](./pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
-  - [Agisoft-PS_1.0.0-Tutorial-BL-3D-model.pdf](./pdf/Agisoft-PS_1.0.0-Tutorial-BL-3D-model.pdf)
-  - [Agisoft-PS_1.1-Tutorial-IL-Building.pdf](./pdf/Agisoft-PS_1.1-Tutorial-IL-Building.pdf)
-  - [Agisoft-PS_1.3-Tutorial-BL-Orthophoto,DEM GCPs.pdf](./pdf/Agisoft-PS_1.3-Tutorial-BL-Orthophoto,DEM-GCPs.pdf)
-  - [Agisoft-TUTORIAL_CREATING_MASKS_IN_PHOTOSHOP_TO.pdf](./pdf/Agisoft-TUTORIAL_CREATING_MASKS_IN_PHOTOSHOP_TO.pdf)
-  - [Agisoft-TUTORIAL_PHOTOSCAN_AND_CLOUD_COMPARE_ENG.pdf](./pdf/Agisoft-TUTORIAL_PHOTOSCAN_AND_CLOUD_COMPARE_ENG.pdf)
-  - [Agisoft-metashape_presentation.pdf](./pdf/Agisoft-metashape_presentation.pdf)
-  - [Agisoft-photoscan-pro_1_4_en.pdf](./pdf/Agisoft-photoscan-pro_1_4_en.pdf)
-  - [Dezzi-Bardeschi-Geomatic-for-conservation_the-shadow-and-the-reality-reading-the-sperimental-and-theoretic-efforts-of-worldwide-recognized-genius.pdf](./pdf/Dezzi-Bardeschi-Geomatic-for-conservation_the-shadow-and-the-reality-reading-the-sperimental-and-theoretic-efforts-of-worldwide-recognized-genius.pdf)
-  - [Drones_in_Archaeology_Special_Issue_SAA_Record_March2016.pdf](./pdf/Drones_in_Archaeology_Special_Issue_SAA_Record_March2016.pdf)
-  - [Education_In_Photogrammetry_Laussedat_1952_mar_21-26.pdf](./pdf/Education_In_Photogrammetry_Laussedat_1952_mar_21-26.pdf)
-  - [Erwin-Kruppa.pdf](./pdf/Erwin-Kruppa.pdf)
-  - [Free-Photogrammetry-on-Mac-OS-From-Photos-to-3D-Mo.pdf](./pdf/Free-Photogrammetry-on-Mac-OS-From-Photos-to-3D-Mo.pdf)
-  - [Fundamentals_of_Photogrammetry.pdf](./pdf/Fundamentals_of_Photogrammetry.pdf)
-  - [Fundamentals_of_Photogrammetry_2.pdf](./pdf/Fundamentals_of_Photogrammetry_2.pdf)
-  - [Historical_Survey_of_Computer_Vision.pdf](./pdf/Historical_Survey_of_Computer_Vision.pdf)
-  - [History_of_Photogrammetry.pdf](./pdf/History_of_Photogrammetry.pdf)
-  - [Image-Capture-Tips_Equipment-and-Shooting-Scenarios.pdf](./pdf/Image-Capture-Tips_Equipment-and-Shooting-Scenarios.pdf)
-  - [Introduction_To_Photogrammetry.pdf](./pdf/Introduction_To_Photogrammetry.pdf)
-  - [Joseph Azzam - Everything_you_need_to_Know_about_Photogrammetry_i-hope.pdf](./pdf/Joseph_Azzam_-_Everything_you_need_to_Know_about_Photogrammetry_i-hope.pdf)
-  - [Persopolis.pdf](./pdf/Persopolis.pdf)
-  - [Photography-Class.pdf](./pdf/Photography-Class.pdf)
-  - [SHN-Archival-3D-Photography-CoDA-Ashley.pdf](./pdf/SHN-Archival-3D-Photography-CoDA-Ashley.pdf)
-  - [Photogrammetric-Surveys.pdf](./pdf/Photogrammetric-Surveys.pdf)  
-  - [SPARC_Photogrammetry.pdf](./pdf/SPARC_Photogrammetry.pdf)
-  - [Teachings_of_Basic_Photogrammetry_1943_jun_86-100.pdf](./pdf/Teachings_of_Basic_Photogrammetry_1943_jun_86-100.pdf)
-  - [The_Art_of_Photogrammetry-How_To_Take_Your_Photos_-_Tested.pdf](./pdf/The_Art_of_Photogrammetry-How_To_Take_Your_Photos_-_Tested.pdf)
-  - [The_Art_of_Photogrammetry-Introduction_to_Software_and_Hardware_-_Tested.pdf](./pdf/The_Art_of_Photogrammetry-Introduction_to_Software_and_Hardware_-_Tested.pdf)
-  - [The poor man’s guide to photogrammetry – BBB3viz.pdf](./pdf/The poor man’s guide to photogrammetry – BBB3viz.pdf)
-  - [Unity-Photogrammetry-Workflow_2017-07_v2.pdf](./pdf/Unity-Photogrammetry-Workflow_2017-07_v2.pdf)
-  - [Using-ComputerVision-Photogrammetry_YAMAFUNE-DISSERTATION-2016.pdf](./pdf/Using-ComputerVision-Photogrammetry_YAMAFUNE-DISSERTATION-2016.pdf)
+  - [3d Scan Anything using a Camera and Photogrammetry with Autodesk ReMake](./pdf/3D-Scan-Anything-Using-a-Camera-Photogrammetry-With-Autodesk-Remake.pdf)
+  - [3D Scanning Class](./pdf/3D-Scanning-Class.pdf)
+  - [3D Scanning Photogrammetry with a Rotating Platform](./pdf/3D-scanning-Photogrammetry-with-a-rotating-platform.pdf)
+  - [3D Scan Anything Using Just a Camera](./pdf/3d-Scan-Anything-Using-Just-a-Camera.pdf)
+  - [Photogrammetric Procedure for Modeling Castles and Ceramics](./pdf/Aaron_Pattee--Photogrammetric_Procedure_for_Modeling_Castles_and_Ceramics_2016_1.pdf)
+  - [Agisoft - Basic Tutorial](./pdf/Agisoft-BASIC_TUTORIAL_FOR_AGISOFT_PHOTOSCAN_ENG.pdf)
+  - [Agisoft - Making Models with Photogrammetry](./pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
+  - [Agisoft - 3D Model Reconstruction (Beginner)](./pdf/Agisoft-PS_1.0.0-Tutorial-BL-3D-model.pdf)
+  - [Agisoft - 3D Model Reconstruction (Intermediate)](./pdf/Agisoft-PS_1.1-Tutorial-IL-Building.pdf)
+  - [Agisoft - Orthomosaic and DEM Generation with Ground Control Points](./pdf/Agisoft-PS_1.3-Tutorial-BL-Orthophoto,DEM-GCPs.pdf)
+  - [Agisoft - Creating Masks in Photoshop to Import in Photoscan](./pdf/Agisoft-TUTORIAL_CREATING_MASKS_IN_PHOTOSHOP_TO.pdf)
+  - [Agisoft - Comparing Point Clouds from Photoscan Projects in Cloud Compare](./pdf/Agisoft-TUTORIAL_PHOTOSCAN_AND_CLOUD_COMPARE_ENG.pdf)
+  - [Agisoft - Metashap Presentation](./pdf/Agisoft-metashape_presentation.pdf)
+  - [Agisoft - PhotoScan Usermanual - Professional Edition, Version 1.4](./pdf/Agisoft-photoscan-pro_1_4_en.pdf)
+  - [Geomatic For Conservation: “the Shadow And The Reality” - Reading The Sperimental And Theoretic Efforts Of Worldwide Recognized Genius: Leon Battista Alberti](./pdf/Dezzi-Bardeschi-Geomatic-for-conservation_the-shadow-and-the-reality-reading-the-sperimental-and-theoretic-efforts-of-worldwide-recognized-genius.pdf)
+  - [SAA Archaeological Record March 2016 - Drones in Archaeology](./pdf/Drones_in_Archaeology_Special_Issue_SAA_Record_March2016.pdf)
+  - [Education In Photogrammetry (Laussedat, 1952)](./pdf/Education_In_Photogrammetry_Laussedat_1952_mar_21-26.pdf)
+  - [Translation of “Zur Ermittlung eines Objektes aus zwei Perspektiven mit innerer Orientierung” by Erwin Kruppa (1913)](./pdf/Erwin-Kruppa.pdf)
+  - [Free Photogrammetry on Mac OS: From Photos to 3D Models](./pdf/Free-Photogrammetry-on-Mac-OS-From-Photos-to-3D-Mo.pdf)
+  - [Fundamentals of Photogrammetry](./pdf/Fundamentals_of_Photogrammetry.pdf)
+  - [Fundamentals of Photogrammetry 2](./pdf/Fundamentals_of_Photogrammetry_2.pdf)
+  - [Historical Survey of Computer Vision](./pdf/Historical_Survey_of_Computer_Vision.pdf)
+  - [History of Photogrammetry](./pdf/History_of_Photogrammetry.pdf)
+  - [Image Capture Tips: Equipment and Shooting Scenarios](./pdf/Image-Capture-Tips_Equipment-and-Shooting-Scenarios.pdf)
+  - [Introduction To Photogrammetry](./pdf/Introduction_To_Photogrammetry.pdf)
+  - [Everything You need to Know about Photogrammetry (I Hope), Joseph Azzam](./pdf/Joseph_Azzam_-_Everything_you_need_to_Know_about_Photogrammetry_i-hope.pdf)
+  - [Authenticity and Restoration: The Benefits of Historical Studies on Re-Examining the Implemented Restorations in Persepolis](./pdf/Persopolis.pdf)
+  - [Photography Class by Audrey Lee Love](./pdf/Photography-Class.pdf)
+  - [Archival 3D Photography, Michael Ashley](./pdf/SHN-Archival-3D-Photography-CoDA-Ashley.pdf)
+  - [Photogrammetric Surveys](./pdf/Photogrammetric-Surveys.pdf)  
+  - [From Photos to Models, Adam Barnes, Katie Simon, Adam Wiewel](./pdf/SPARC_Photogrammetry.pdf)
+  - [Teachings of Basic Photogrammetry, Reynold E. Ask, 1943](./pdf/Teachings_of_Basic_Photogrammetry_1943_jun_86-100.pdf)
+  - [The Art of Photogrammetry: How To Take Your Photos, Brandon Blizard, Tested, 2014](./pdf/The_Art_of_Photogrammetry-How_To_Take_Your_Photos_-_Tested.pdf)
+  - [The Art of Photogrammetry: Introduction to Software and Hardware, Brandon Blizard, Tested, 2014](./pdf/The_Art_of_Photogrammetry-Introduction_to_Software_and_Hardware_-_Tested.pdf)
+  - [The Poor Man’s Guide to Photogrammetry, BBB3VIZ 2018](./pdf/The_poor_mans_guide_to_photogrammetry.pdf)
+  - [Unity - Photogrammetry Workflow, Sébastien Lachambre, Sébastien Lagarde, Cyril Jover 2017](./pdf/Unity-Photogrammetry-Workflow_2017-07_v2.pdf)
+  - [Using Computer Vision Photogrammetry, Kotaro Yamafune, 2016](./pdf/Using-ComputerVision-Photogrammetry_YAMAFUNE-DISSERTATION-2016.pdf)
 
 
 ## Emergence of Mathematical Solutions related to Photogrammetry
