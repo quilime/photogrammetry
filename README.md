@@ -11,8 +11,6 @@ www [gabrieldunne.com](http://gabrieldunne.com)
 twitter [@gabrieldunne](https://twitter.com/gabrieldunne)  
 ig [@gabrieldunne](https://instagram.com/gabrieldunne)  
 
-{{ site.baseurl | relative_url }}
-
 ![](./img/screen.PNG)
 
 ###### Headlands Bunker Scan (Dense Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
