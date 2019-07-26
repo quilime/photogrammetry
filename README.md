@@ -7,6 +7,7 @@ permalink: index.html
 # Introduction to Photogrammetry
 
 Gabriel Dunne  
+email [gabe@gabrieldunne.com](mailto:gabe@gabrieldunne.com)  
 www [gabrieldunne.com](http://gabrieldunne.com)  
 twitter [@gabrieldunne](https://twitter.com/gabrieldunne)  
 ig [@gabrieldunne](https://instagram.com/gabrieldunne)  
@@ -14,6 +15,23 @@ ig [@gabrieldunne](https://instagram.com/gabrieldunne)
 ![](./img/screen.PNG)
 
 ###### Headlands Bunker Scan (Dense Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
+
+## Prerequsite Materials
+
+  - Computer
+  - Camera
+  - [Agisoft Metashape Professional Edition](https://www.agisoft.com/downloads/installer/) (30 Day Trial)
+
+## Schedule
+
+  Class time: **2p - 5p** (3 hours)
+
+  - **2p - 2:20p** - Intro & Orientation (20 min)
+  - **2:20p - 3p** - Capturing/processing demo (40 min)
+  - **3p - 3:50** - Self-Initiation Scanning projects. Indoor, or Outdoor. Do multiple scans! (50 min)
+  - **3:50 - 4:40** - Image processing (50 min)
+  - **4:40 - 5pm** - Project Sharing, Wrap up (20 min)
+
 
 ## Definition
 
@@ -33,21 +51,7 @@ Photogrammetry is the process of creating 3D objects from 2D photographs. The pr
 
 ###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
 
-## Prerequsite Materials
 
-  - Computer
-  - Camera
-  - [Agisoft Metashape](https://www.agisoft.com/downloads/installer/) (30 Day Trial)
-
-## Schedule
-
-  Class time: **2p - 5p** (3 hours)
-
-  - **2p - 2:20p** - Intro & Orientation (20 min)
-  - **2:20p - 3p** - Capturing/processing demo (40 min)
-  - **3p - 3:50** - Self-Initiation Scanning projects. Indoor, or Outdoor. Do multiple scans! (50 min)
-  - **3:50 - 4:40** - Image processing (50 min)
-  - **4:40 - 5pm** - Project Sharing, Wrap up (20 min)
 
 ## Abridged Photogrammetry History
 
@@ -157,32 +161,42 @@ The best way to learn is to practice! Here are some ideas for things to scan.
   - Food
   - Terrain with a Drone
 
-## Processing with Agisoft
+## Processing with Metashape
 
   - Import photos
-    - Add individual photos or entire folder to create a new cluster
-  - Inspect loaded images, removing unnecessary images
+    - Drag in individual photos or entire folder into a "chunk" in your Workspace
+    - Organize various scans with seperate chunks, if necesarry.
+  - Inspect loaded images in the Photos tab, removing unnecessary images
     - Cull bad or out of focus images.
-  - Align photos
-  - Build dense point cloud
+    - Cull duplicates
+  - Workflow -> Align photos
+    - Use low accuracy for testing. The higher the accuracy, the longer the process.
+    - Inspect and remove up any images that create issues
+  - Workflow -> Build dense cloud
     - Increasing quality increases processing time. Medium or Low Quality is good for testing. 
   - Clean up Points with Manual Selection
     - Manually delete points that are irrelevant to your scan or possible errors
     - This step can be done any time between aligning photos and building the dense cloud
   - Build mesh
     - Generates a 3D mesh for export
+    - Source: Dense Cloud
+    - Surface Type: Arbitrary (3D)
   - Generate texture
+    - Creates UV map and applies graphic texture from photos
   - Export 3D Mesh
+    - Optionally include texture
+  - View in Agisoft Viewer
+    - Included in MetaShape download
 
-### 3D Software Suggestions (Free):
+### 3D Mesh Software Suggestions:
 
-  - [Meshlab](http://www.meshlab.net/)
-  - [Meshmixer](http://www.meshmixer.com/)
-  - [Blender](https://www.blender.org/)
+  - [Meshlab](http://www.meshlab.net/), Free
+  - [Meshmixer](http://www.meshmixer.com/), Free
+  - [Blender](https://www.blender.org/), Free
 
 ## Photogrammatry Software
 
-I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm familiar with it and use it in my workflow. However, there are many options for photogrammetry software out there. Here's a few:
+There are many options for photogrammetry software out there, other than Agisoft MetaShape. 
 
   - [AliceVision](https://alicevision.org)  - Free, Open Source
   - [COLMAP](https://colmap.github.io/index.html) - Free, Open Source
@@ -192,7 +206,6 @@ I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm f
   - [OpenMVG](https://qgis.org/en/site/) - Free, Open Source  
   - [VisualSFM](http://ccwu.me/vsfm/) - Free for Non profit & personal use
   - [RealityCapture](https://www.capturingreality.com/Home), Commercial
-  - [Agisoft Metashape](http://www.agisoft.com/) (formerly PhotoScan), Commercial  
   - [Autodesk ReCap](https://www.autodesk.com/products/recap/overview), Commercial
   - [Bentley ContextCapture](https://www.bentley.com/en/products/brands/contextcapture), Commercial
   - [IMAGINE Photogrammetry](https://www.hexagongeospatial.com/products/power-portfolio/imagine-photogrammetry), Commercial
