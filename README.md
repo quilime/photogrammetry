@@ -15,20 +15,29 @@ ig [@gabrieldunne](https://instagram.com/gabrieldunne)
 
 ###### Headlands Bunker Scan (Dense Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
 
+## Definition
+
+  **Photogrammetry** *[noun]* The science or technique for obtaining reliable information on the natural environment or physical objects by recording, measuring and interpreting photographic images.
+
+  Greek:
+
+  - *"photos"* (light)
+  - *"gramma"* (something written or drawn)
+  - *"metron"* (measure)
+
+## Background
+
+Photogrammetry is the process of creating 3D objects from 2D photographs. The process can be used to scan anything from objects and people, to architecture, terrain and landscapes. There are various strategies you can use when taking photos to get accurate scans. This workshop will go over photography techniques, ideal camera settings and lighting, using photogrammetry software, and further resources to create accurate 3D models from photos.
+
+![](./img/sfm.png)
+
+###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
 
 ## Prerequsite Materials
 
   - Computer
   - Camera
   - [Agisoft Metashape](https://www.agisoft.com/downloads/installer/) (30 Day Trial)
-
-## Background
-
-Creating 3D objects from 2D photographs requires a specific type of image capture. The process allows you to scan everything from objects and people, to architecture and landscapes. This workshop goes over the entire process from start to finish, including photographic techniques, lighting conditions, and post-processing methods to generate accurate 3D models from photos. There are a few different strategies you can use when acquiring images, and this workshop provides a starting point for you to scan objects and architectural spaces.
-
-![](./img/sfm.png)
-
-###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
 
 ## Schedule
 
@@ -40,37 +49,30 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
   - **3:50 - 4:40** - Image processing (50 min)
   - **4:40 - 5pm** - Project Sharing, Wrap up (20 min)
 
-## Definition
-
-  **Photogrammetry** *[noun]* The science or technique for obtaining reliable information on the natural environment or physical objects by recording, measuring and interpreting photographic images or produced by electromagnetic radiation or other phenomena.
-
-  Greek:
-
-  - *"photos"* (light)
-  - *"gramma"* (something written or drawn)
-  - *"metron"* (measure)
-
-
-## Abridged History of Photogrammetry
+## Abridged Photogrammetry History
 
   - **1046 BC - 256 BC** Discovery and capture of natural optical phenomena. Perforated gnomons projecting a pinhole image of the sun were described in the Chinese Zhoubi Suanjing writings. Some ancient sightings of gods and spirits, especially in temple worship, are thought to possibly have been conjured up by means of camera obscura projections.
+  - **300 BC** Geometry, perspective, pinhole camera model — Euclid
   - **500 BC** Camera Obscura. (500 BC in China, 350 BC Aristote, 1000 Al-Haytham, 1500 Léonard de Vinci)
   - **1430** Leon Battista Alberti, "Rerum Mathematicarum et Descriptio Urbis Romae". Developments of topographic mapping.
   - **1611** First documents of Camera Lucida, eventually Patented in 1806 by William Hyde Wollaston.
   - **1836** Daguerreotype, “gift to the world” from French Academy. First publicly available photographic process.
-  - **1851** French officer Aime Laussedat develops the firstphotogrammetrical devices and methods.
+  - **1851** French officer Aime Laussedat develops the first photogrammetrical devices and methods.
   - **1858** The German architect A. Meydenbauer develops photogrammetrical techniques for the documentation of buildings.
   - **1866** The Viennese physicist Ernst Mach publishes the idea to use the  stereoscope to estimate volumetric measures.
   - **1885** The ancient ruins of Persepolis were the first archaeological object  recorded photogrammetrically.
   - **1889** The first German manual of photogrammetry was published by C. Koppe.
+  - **1893** Meydenbauer coined the word “Photogrammetry”.  
   - **1896** Eduard Gaston and Daniel Deville present the first stereoscopic instrument for  vectorized mapping.
   - **1910** The ISP (International Society for Photogrammetry), now ISPRS, was founded  by E. Dolezal in Austria.
   - **1911** First aerial photogrammetry with rectified photographs by Th. Scheimpflug.
+  - **1924** Relative orientation determined by 6 points in overlapping images — von Gruber points.
+  - **1957** Analytical plotter (Helava) - Image-map coordinate transformation by electronic computation & servocontrol.
   - **1964** First architectural tests with the new stereometric camera-system, which had been invented by Carl Zeiss, Oberkochen and Hans Foramitti, Vienna.
   - **1980** Due to improvements in computer hardware and software, digital photogrammetry gains more and more accessibility.
   - **2000's** Increasing accessibiulity of photography drones
 
-# Photography Technique
+# Image Capture Technique
 
 ![](./img/screen3.PNG)
 
@@ -87,10 +89,10 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
   - ISO: As low as possible
   - Shutter speed: As fast as possible
   - Aperture: F8, higher is better
-  - 50mm Optimum Focal Length
-  - White Balance: Manual — NOT Auto
+  - 50mm (35mm equiv) Optimal Focal Length 
+  - White Balance: Manual
   - Bokeh is bad! Increase aperture for larger DOF for sharper photos.
-  - Overcast/foggy/diffuse lighting is ideal — Soft shadows, low contrast give the most even images.
+  - Overcast/foggy/diffuse lighting is ideal — Soft shadows & low contrast for evenly lit images.
 
 ## Optional Equipment
 
@@ -112,8 +114,10 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
 
   - Don’t worry about taking too many photos. Remove bad ones later.
   - Use the highest resolution possible
+  - Prioritize a sharp, focused image. Avoid movement, motion blur, or out of focus areas.
   - Each point on the scene must be seen in at least TWO images, and you should aim for THREE. Optimal overlap is about 80%
-  - Always physically move when taking photos. DO NOT just rotate
+  - Take a note of a measurment of an element in the scene, or include a ruler or measuring tool somewhere in the scan.  
+  - Always physically move when taking photos. DO NOT just rotate.
   - Rotate the camera on both axis, not just one
   - Don’t change a rotational viewpoint more than 30 degrees in a series
   - Care about object TEXTURE, avoid plain/monotonous or glittering/reflective surfaces.
@@ -123,7 +127,7 @@ Creating 3D objects from 2D photographs requires a specific type of image captur
   - Dont just take one loop, take multiples from various angles
   - Turntable Method: Object moves, camera stays still
   - Walk-Around Method: Object stays still, camera moves
-  - Trust your instincts, break rules, test ideas!
+  - Go with your instincts, break rules, test ideas!
 
 
 ## Practice
@@ -155,18 +159,20 @@ The best way to learn is to practice! Here are some ideas for things to scan.
 
 ## Processing with Agisoft
 
-
-
-Refer to the article [Making Models with Photogrammetry](http://media.quilime.com/pg/pdf/Agisoft-Making_Models_With_Photogrammetry_[Agisoft-Photoscan].pdf)
-
-  1. Import photos
-  2. Inspect loaded images, removing unnecessary images
-  3. Align photos, build sparse cloud
-  4. Build dense point cloud
-  5. Clean up Points with Manual Selection
-  6. Building mesh
-  7. Generating texture
-  8. Export 3D Mesh
+  - Import photos
+    - Add individual photos or entire folder to create a new cluster
+  - Inspect loaded images, removing unnecessary images
+    - Cull bad or out of focus images.
+  - Align photos
+  - Build dense point cloud
+    - Increasing quality increases processing time. Medium or Low Quality is good for testing. 
+  - Clean up Points with Manual Selection
+    - Manually delete points that are irrelevant to your scan or possible errors
+    - This step can be done any time between aligning photos and building the dense cloud
+  - Build mesh
+    - Generates a 3D mesh for export
+  - Generate texture
+  - Export 3D Mesh
 
 ### 3D Software Suggestions (Free):
 
@@ -176,16 +182,17 @@ Refer to the article [Making Models with Photogrammetry](http://media.quilime.co
 
 ## Photogrammatry Software
 
-I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm personally familair with it and use it in my workflow. However, there are many photogrammetry softwares out there. Here's a few:
+I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm familiar with it and use it in my workflow. However, there are many options for photogrammetry software out there. Here's a few:
 
   - [AliceVision](https://alicevision.org)  - Free, Open Source
-  - [COLMAP](https://all3dp.com/1/best-photogrammetry-software/#colmap) - Free
+  - [COLMAP](https://colmap.github.io/index.html) - Free, Open Source
   - [Meshroom](https://alicevision.github.io/#meshroom) - Free, Open Source
-  - [MicMac](https://micmac.ensg.eu/index.php/Accueil) - Free, open source
-  - [Regard3D](http://www.regard3d.org/index.php) - Free, open source
-  - [VisualSFM](http://ccwu.me/vsfm/) - Free for Non profit, personal use
-  - [OpenMVG](https://qgis.org/en/site/) - Free
+  - [MicMac](https://micmac.ensg.eu/index.php/Accueil) - Free, Open Source
+  - [Regard3D](http://www.regard3d.org/index.php) - Free, Open Source
+  - [OpenMVG](https://qgis.org/en/site/) - Free, Open Source  
+  - [VisualSFM](http://ccwu.me/vsfm/) - Free for Non profit & personal use
   - [RealityCapture](https://www.capturingreality.com/Home), Commercial
+  - [Agisoft Metashape](http://www.agisoft.com/) (formerly PhotoScan), Commercial  
   - [Autodesk ReCap](https://www.autodesk.com/products/recap/overview), Commercial
   - [Bentley ContextCapture](https://www.bentley.com/en/products/brands/contextcapture), Commercial
   - [IMAGINE Photogrammetry](https://www.hexagongeospatial.com/products/power-portfolio/imagine-photogrammetry), Commercial
@@ -198,7 +205,7 @@ I chose to use [Agisoft](http://www.agisoft.com/) in this workshop because I'm p
 
 ## Articles and References
 
-For educational use only. I claim no ownership or rights to this material.
+These articles are for reference and educational use. I claim no ownership or rights to this material.
 
   - [3d Scan Anything using a Camera and Photogrammetry with Autodesk ReMake](./pdf/3D-Scan-Anything-Using-a-Camera-Photogrammetry-With-Autodesk-Remake.pdf)
   - [3D Scanning Class](./pdf/3D-Scanning-Class.pdf)
@@ -220,7 +227,7 @@ For educational use only. I claim no ownership or rights to this material.
   - [Translation of “Zur Ermittlung eines Objektes aus zwei Perspektiven mit innerer Orientierung” by Erwin Kruppa (1913)](./pdf/Erwin-Kruppa.pdf)
   - [Free Photogrammetry on Mac OS: From Photos to 3D Models](./pdf/Free-Photogrammetry-on-Mac-OS-From-Photos-to-3D-Mo.pdf)
   - [Fundamentals of Photogrammetry](./pdf/Fundamentals_of_Photogrammetry.pdf)
-  - [Fundamentals of Photogrammetry 2](./pdf/Fundamentals_of_Photogrammetry_2.pdf)
+  - [Fundamentals of Photogrammetry, URP, KUET](./pdf/Fundamentals_of_Photogrammetry_2.pdf)
   - [Historical Survey of Computer Vision](./pdf/Historical_Survey_of_Computer_Vision.pdf)
   - [History of Photogrammetry](./pdf/History_of_Photogrammetry.pdf)
   - [Image Capture Tips: Equipment and Shooting Scenarios](./pdf/Image-Capture-Tips_Equipment-and-Shooting-Scenarios.pdf)
@@ -235,50 +242,19 @@ For educational use only. I claim no ownership or rights to this material.
   - [The Art of Photogrammetry: How To Take Your Photos, Brandon Blizard, Tested, 2014](./pdf/The_Art_of_Photogrammetry-How_To_Take_Your_Photos_-_Tested.pdf)
   - [The Art of Photogrammetry: Introduction to Software and Hardware, Brandon Blizard, Tested, 2014](./pdf/The_Art_of_Photogrammetry-Introduction_to_Software_and_Hardware_-_Tested.pdf)
   - [The Poor Man’s Guide to Photogrammetry, BBB3VIZ 2018](./pdf/The_poor_mans_guide_to_photogrammetry.pdf)
-  - [Unity - Photogrammetry Workflow, Sébastien Lachambre, Sébastien Lagarde, Cyril Jover 2017](./pdf/Unity-Photogrammetry-Workflow_2017-07_v2.pdf)
-  - [Using Computer Vision Photogrammetry, Kotaro Yamafune, 2016](./pdf/Using-ComputerVision-Photogrammetry_YAMAFUNE-DISSERTATION-2016.pdf)
+  - [Unity Photogrammetry Workflow, S. Lachambre, S. Lagarde, C. Jover 2017](./pdf/Unity-Photogrammetry-Workflow_2017-07_v2.pdf)
+  - [Using Computer Vision Photogrammetry To Record And Analyze Underwater Shipwreck Sites, Kotaro Yamafune, 2016](./pdf/Using-ComputerVision-Photogrammetry_YAMAFUNE-DISSERTATION-2016.pdf)
 
 
 ## Emergence of Mathematical Solutions related to Photogrammetry
 
-### [3D Pose Problem](https://en.wikipedia.org/wiki/3D_pose_estimation), [\[2\]](http://www.ignaciomellado.es/blog/The-relative-pose-problem-A-chronology)
-
-  - **1615** - [Snellius](https://en.wikipedia.org/wiki/Willebrord_Snellius)
-  - **1773** - [Lagrange](https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange)
-  - **1841** - [Grunert](https://www.wikidata.org/wiki/Q88398)
-
-### [Epipolar geometry](https://en.wikipedia.org/wiki/Epipolar_geometry)
-
-  - **1862** - [Terrero](https://es.wikipedia.org/wiki/Antonio_Terrero_y_D%C3%ADaz_Herrero)
-  - **1883** - [Hauck](https://www.deepdyve.com/lp/de-gruyter/neue-constructionen-der-perspective-und-photogrammetrie-theorie-der-9q068d0OOO)
-  - **1899** - [Finsterwalder](https://en.wikipedia.org/wiki/Sebastian_Finsterwalder)
-
-### [Trifocal Tensor](https://en.wikipedia.org/wiki/Trifocal_tensor)
-
-  - **1883** - [Hauck](https://www.deepdyve.com/lp/de-gruyter/neue-constructionen-der-perspective-und-photogrammetrie-theorie-der-9q068d0OOO)
-
-### [Motion Estimation](https://en.wikipedia.org/wiki/Motion_estimation)
-
-  - 1880 - [Schroter: 4 point problem for coplanar object points](https://en.wikipedia.org/wiki/Heinrich_Schr%C3%B6ter)
-  - 1913 - [Kruppa: 5 point problem](https://arxiv.org/pdf/1801.01454.pdf)
-  - 2003 - [Nister: First algorithm for the 5 point problem that gives at most 10 solutions](https://www.semanticscholar.org/paper/An-efficient-solution-to-the-five-point-relative-Nist%C3%A9r/2621597b539f2930df0c8aafe0464b36f6876067)
-
-### [3D Reconstruction from Multiple Images](https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images)
-  
-  - **1800** - [Laussedat](https://en.wikipedia.org/wiki/Rephotography)
-  - **1883** - [Hauck](https://www.deepdyve.com/lp/de-gruyter/neue-constructionen-der-perspective-und-photogrammetrie-theorie-der-9q068d0OOO)
-  - **1892** - [Meydenbauer](https://en.wikipedia.org/wiki/Rephotography)
-
-### [3D reconstruction from uncalibrated images & projective reconstruction](https://en.wikipedia.org/wiki/3D_reconstruction)
-
-  - **1883** - [Hauck](https://www.deepdyve.com/lp/de-gruyter/neue-constructionen-der-perspective-und-photogrammetrie-theorie-der-9q068d0OOO)
-  - **1899** - [Finsterwalder](https://en.wikipedia.org/wiki/Sebastian_Finsterwalder)
-
-### [Camera self-calibration](https://en.wikipedia.org/wiki/Camera_auto-calibration)
-
-  - **1892** - [Meydenbauer](https://en.wikipedia.org/wiki/Rephotography)
-  - **1899** - [Finsterwalder](https://en.wikipedia.org/wiki/Sebastian_Finsterwalder)
-
+- [3D Pose Problem](https://en.wikipedia.org/wiki/3D_pose_estimation), [\[2\]](http://www.ignaciomellado.es/blog/The-relative-pose-problem-A-chronology)
+- [Epipolar geometry](https://en.wikipedia.org/wiki/Epipolar_geometry)
+- [Trifocal Tensor](https://en.wikipedia.org/wiki/Trifocal_tensor)
+- [Motion Estimation](https://en.wikipedia.org/wiki/Motion_estimation), [\[2\]](./pdf/Erwin-Kruppa.pdf)
+- [3D Reconstruction from Multiple Images](https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images), [\[2\]](https://en.wikipedia.org/wiki/Rephotography) 
+- [3D reconstruction from uncalibrated images & projective reconstruction](https://en.wikipedia.org/wiki/3D_reconstruction)
+- [Camera self-calibration](https://en.wikipedia.org/wiki/Camera_auto-calibration)
 
 ---
 
