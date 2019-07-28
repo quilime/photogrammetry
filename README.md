@@ -6,6 +6,8 @@ permalink: index.html
 
 # Introduction to Photogrammetry
 
+### Gray Area Festival 2019
+
 Gabriel Dunne  
 email [gabe@gabrieldunne.com](mailto:gabe@gabrieldunne.com)  
 www [gabrieldunne.com](http://gabrieldunne.com)  
@@ -32,8 +34,15 @@ ig [@gabrieldunne](https://instagram.com/gabrieldunne)
   - **3:50 - 4:40** - Image processing (50 min)
   - **4:40 - 5pm** - Project Sharing, Wrap up (20 min)
 
+## What is Photogrammetry?
 
-## Definition
+Photogrammetry is the process of creating 3D objects from 2D photographs. The process can be used to scan anything from objects and people, to architecture, terrain and landscapes. There are various strategies you can use when taking photos to get accurate scans. This workshop will go over photography techniques, ideal camera settings and lighting, using photogrammetry software, and further resources to create accurate 3D models from photos.
+
+![](./img/sfm.png)
+
+###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
+
+### Definition
 
   **Photogrammetry** *[noun]* The science or technique for obtaining reliable information on the natural environment or physical objects by recording, measuring and interpreting photographic images.
 
@@ -43,44 +52,59 @@ ig [@gabrieldunne](https://instagram.com/gabrieldunne)
   - *"gramma"* (something written or drawn)
   - *"metron"* (measure)
 
-## Background
+#### Typical Outputs
 
-Photogrammetry is the process of creating 3D objects from 2D photographs. The process can be used to scan anything from objects and people, to architecture, terrain and landscapes. There are various strategies you can use when taking photos to get accurate scans. This workshop will go over photography techniques, ideal camera settings and lighting, using photogrammetry software, and further resources to create accurate 3D models from photos.
+A map, a drawing, a 3D model of a real-world object, scene, or terrain.
 
-![](./img/sfm.png)
+#### Related fields
 
-###### Structure from Motion ([SfM](https://en.wikipedia.org/wiki/Structure_from_motion)) photogrammetric principle. Source: [theia-sfm.org](http://theia-sfm.org/) 2016
+Remote Sensing, GIS, Stereoscopy
 
+#### Main Tasks of Photogrammetry
 
+  - To measure something without touching it
+  - To measure something that may no longer exist, or may only exist in photographs
+  - To measure something too large to measure with traditional methods, i.e., landscape, a megalithic structure
+  - Quantitative data from photographs, the science of measuring in photos.
+
+#### Comparison to Laser Scanning (LIDAR)
+
+Laser scanning is great in cases where photogrammetric techniques often fail -- such as when objects have low texture, or shiny/reflective. However, laser scanning is expensive, time consuming, and can't be used with moving objects like Photogrammetry can. That said, Laser Scanning and Photogrammetry can be considered complimentary to eachother.
 
 ## Abridged Photogrammetry History
 
-  - **1046 BC - 256 BC** Discovery and capture of natural optical phenomena. Perforated gnomons projecting a pinhole image of the sun were described in the Chinese Zhoubi Suanjing writings. Some ancient sightings of gods and spirits, especially in temple worship, are thought to possibly have been conjured up by means of camera obscura projections.
-  - **300 BC** Geometry, perspective, pinhole camera model — Euclid
-  - **500 BC** Camera Obscura. (500 BC in China, 350 BC Aristote, 1000 Al-Haytham, 1500 Léonard de Vinci)
+![](./img/oculus_artificialis_01.jpg)
+
+###### Illustration from Oculus artificialis teledioptricus sive Telescopium, Johann Zahn 1685, Source: [Public Domain](https://publicdomainreview.org/collections/images-from-johann-zahns-oculus-artificialis-1685/)
+
+
+  - **1046 BC - 256 BC** Discovery and capture of natural optical phenomena. Perforated [gnomons](https://en.wikipedia.org/wiki/Gnomon) projecting a pinhole image of the sun were described in the Chinese Zhoubi Suanjing writings. Some ancient sightings of gods and spirits, especially in temple worship, are thought to possibly have been conjured up by means of camera obscura projections.
+  - **300 BC** Geometry, perspective, [pinhole camera](https://en.wikipedia.org/wiki/Pinhole_camera) model — Euclid
+  - **500 BC** [Camera Obscura](https://en.wikipedia.org/wiki/Camera_obscura). (500 BC in China, 350 BC Aristote, 1000 Al-Haytham, 1500 Léonard de Vinci)
   - **1430** Leon Battista Alberti, "Rerum Mathematicarum et Descriptio Urbis Romae". Developments of topographic mapping.
-  - **1611** First documents of Camera Lucida, eventually Patented in 1806 by William Hyde Wollaston.
-  - **1836** Daguerreotype, “gift to the world” from French Academy. First publicly available photographic process.
+  - **1611** First documents of [Camera Lucida](https://en.wikipedia.org/wiki/Camera_lucida), eventually Patented in 1806 by William Hyde Wollaston.
+  - **1836** [Daguerreotype](https://en.wikipedia.org/wiki/Daguerreotype), “gift to the world” from French Academy. First publicly available photographic process.
   - **1851** French officer Aime Laussedat develops the first photogrammetrical devices and methods.
   - **1858** The German architect A. Meydenbauer develops photogrammetrical techniques for the documentation of buildings.
-  - **1866** The Viennese physicist Ernst Mach publishes the idea to use the  stereoscope to estimate volumetric measures.
-  - **1885** The ancient ruins of Persepolis were the first archaeological object  recorded photogrammetrically.
+  - **1866** The Viennese physicist Ernst Mach publishes the idea to use the [stereoscope](https://en.wikipedia.org/wiki/Stereoscope) to estimate volumetric measures.
+  - **1885** The ancient ruins of [Persepolis](https://en.wikipedia.org/wiki/Persepolis) were the first archaeological object recorded photogrammetrically.
   - **1889** The first German manual of photogrammetry was published by C. Koppe.
   - **1893** Meydenbauer coined the word “Photogrammetry”.  
-  - **1896** Eduard Gaston and Daniel Deville present the first stereoscopic instrument for  vectorized mapping.
-  - **1910** The ISP (International Society for Photogrammetry), now ISPRS, was founded  by E. Dolezal in Austria.
-  - **1911** First aerial photogrammetry with rectified photographs by Th. Scheimpflug.
+  - **1896** Eduard Gaston and Daniel Deville present the first stereoscopic instrument for vectorized mapping.
+  - **1910** The ISP (International Society for Photogrammetry), now [ISPRS](https://www.isprs.org/), was founded  by E. Dolezal in Austria.
+  - **1911** Aerial photogrammetry with rectified photographs by Theodor Scheimpflug.
   - **1924** Relative orientation determined by 6 points in overlapping images — von Gruber points.
   - **1957** Analytical plotter (Helava) - Image-map coordinate transformation by electronic computation & servocontrol.
   - **1964** First architectural tests with the new stereometric camera-system, which had been invented by Carl Zeiss, Oberkochen and Hans Foramitti, Vienna.
   - **1980** Due to improvements in computer hardware and software, digital photogrammetry gains more and more accessibility.
   - **2000's** Increasing accessibiulity of photography drones
 
+
 # Image Capture Technique
 
-![](./img/screen3.PNG)
+![](./img/oculus_artificialis_03.jpg)
 
-###### Headlands Bunker Scan (Sparse Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
+###### Illustration from Oculus artificialis teledioptricus sive Telescopium, Johann Zahn 1685, Source: [Public Domain](https://publicdomainreview.org/collections/images-from-johann-zahns-oculus-artificialis-1685/)
 
 
 ## Camera
@@ -119,16 +143,20 @@ Photogrammetry is the process of creating 3D objects from 2D photographs. The pr
   - Don’t worry about taking too many photos. Remove bad ones later.
   - Use the highest resolution possible
   - Prioritize a sharp, focused image. Avoid movement, motion blur, or out of focus areas.
+  - Use a remote trigger for your camera when possible for an even sharper image.
+  - Enable GPS on your camera if supported (improves alignment in software)
   - Each point on the scene must be seen in at least TWO images, and you should aim for THREE. Optimal overlap is about 80%
-  - Take a note of a measurment of an element in the scene, or include a ruler or measuring tool somewhere in the scan.  
+  - Take a note of a measurement of an element in the scene, or include a ruler or measuring tool somewhere in the scan.  
   - Always physically move when taking photos. DO NOT just rotate.
   - Rotate the camera on both axis, not just one
   - Don’t change a rotational viewpoint more than 30 degrees in a series
-  - Care about object TEXTURE, avoid plain/monotonous or glittering/reflective surfaces.
+  - Prioritize object texture.
+  - Avoid plain/monotonous or glittering/reflective surfaces. 
+  - Avoid harsh shadows or high contrast areas. These may be confused with geometry by the alignment software.
   - Start with the entire scene or object, and gradually hone in on details
   - Complete loops. Go around objects and end up where you started
   - Pictures are processed in order, so stay organized
-  - Dont just take one loop, take multiples from various angles
+  - Don't just take one loop, take multiples from various angles
   - Turntable Method: Object moves, camera stays still
   - Walk-Around Method: Object stays still, camera moves
   - Go with your instincts, break rules, test ideas!
@@ -163,9 +191,15 @@ The best way to learn is to practice! Here are some ideas for things to scan.
 
 ## Processing with Metashape
 
+![](./img/screen3.PNG)
+
+###### Headlands Bunker Scan (Sparse Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
+
+
+
   - Import photos
     - Drag in individual photos or entire folder into a "chunk" in your Workspace
-    - Organize various scans with seperate chunks, if necesarry.
+    - Organize various scans with separate chunks, if necessary.
   - Inspect loaded images in the Photos tab, removing unnecessary images
     - Cull bad or out of focus images.
     - Cull duplicates
@@ -188,15 +222,15 @@ The best way to learn is to practice! Here are some ideas for things to scan.
   - View in Agisoft Viewer
     - Included in MetaShape download
 
-### 3D Mesh Software Suggestions:
+
+
+## Free 3D Modeling Software Suggestions
 
   - [Meshlab](http://www.meshlab.net/), Free
   - [Meshmixer](http://www.meshmixer.com/), Free
   - [Blender](https://www.blender.org/), Free
 
 ## Photogrammatry Software
-
-There are many options for photogrammetry software out there, other than Agisoft MetaShape. 
 
   - [AliceVision](https://alicevision.org)  - Free, Open Source
   - [COLMAP](https://colmap.github.io/index.html) - Free, Open Source
@@ -205,6 +239,7 @@ There are many options for photogrammetry software out there, other than Agisoft
   - [Regard3D](http://www.regard3d.org/index.php) - Free, Open Source
   - [OpenMVG](https://qgis.org/en/site/) - Free, Open Source  
   - [VisualSFM](http://ccwu.me/vsfm/) - Free for Non profit & personal use
+  - [Agisoft Metashape](https://www.agisoft.com) - Commercial
   - [RealityCapture](https://www.capturingreality.com/Home), Commercial
   - [Autodesk ReCap](https://www.autodesk.com/products/recap/overview), Commercial
   - [Bentley ContextCapture](https://www.bentley.com/en/products/brands/contextcapture), Commercial
@@ -217,6 +252,11 @@ There are many options for photogrammetry software out there, other than Agisoft
 
 
 ## Articles and References
+
+![](./img/oculus_artificialis_02.jpg)
+
+###### Illustration from Oculus artificialis teledioptricus sive Telescopium, Johann Zahn 1685, Source: [Public Domain](https://publicdomainreview.org/collections/images-from-johann-zahns-oculus-artificialis-1685/)
+
 
 These articles are for reference and educational use. I claim no ownership or rights to this material.
 
@@ -234,6 +274,7 @@ These articles are for reference and educational use. I claim no ownership or ri
   - [Agisoft - Comparing Point Clouds from Photoscan Projects in Cloud Compare](./pdf/Agisoft-TUTORIAL_PHOTOSCAN_AND_CLOUD_COMPARE_ENG.pdf)
   - [Agisoft - Metashap Presentation](./pdf/Agisoft-metashape_presentation.pdf)
   - [Agisoft - PhotoScan Usermanual - Professional Edition, Version 1.4](./pdf/Agisoft-photoscan-pro_1_4_en.pdf)
+  - [Applications of Projective Transformation for Stereo Photogrammetry](./pdf/Applications-of-projective-transformation-for-stereo-photogrammetry.pdf)
   - [Geomatic For Conservation: “the Shadow And The Reality” - Reading The Sperimental And Theoretic Efforts Of Worldwide Recognized Genius: Leon Battista Alberti](./pdf/Dezzi-Bardeschi-Geomatic-for-conservation_the-shadow-and-the-reality-reading-the-sperimental-and-theoretic-efforts-of-worldwide-recognized-genius.pdf)
   - [SAA Archaeological Record March 2016 - Drones in Archaeology](./pdf/Drones_in_Archaeology_Special_Issue_SAA_Record_March2016.pdf)
   - [Education In Photogrammetry (Laussedat, 1952)](./pdf/Education_In_Photogrammetry_Laussedat_1952_mar_21-26.pdf)
@@ -242,9 +283,11 @@ These articles are for reference and educational use. I claim no ownership or ri
   - [Fundamentals of Photogrammetry](./pdf/Fundamentals_of_Photogrammetry.pdf)
   - [Fundamentals of Photogrammetry, URP, KUET](./pdf/Fundamentals_of_Photogrammetry_2.pdf)
   - [Historical Survey of Computer Vision](./pdf/Historical_Survey_of_Computer_Vision.pdf)
+  - [History of Photrogrammetry (Dermanis)](./pdf/History_of_Photogrammetry--Dermanis.pdf)
   - [History of Photogrammetry](./pdf/History_of_Photogrammetry.pdf)
   - [Image Capture Tips: Equipment and Shooting Scenarios](./pdf/Image-Capture-Tips_Equipment-and-Shooting-Scenarios.pdf)
   - [Introduction To Photogrammetry](./pdf/Introduction_To_Photogrammetry.pdf)
+  - [Elements of Analytical Photogrammetry](./pdf/Elements_of_Analytical_Photogrammetry.pdf)
   - [Everything You need to Know about Photogrammetry (I Hope), Joseph Azzam](./pdf/Joseph_Azzam_-_Everything_you_need_to_Know_about_Photogrammetry_i-hope.pdf)
   - [Authenticity and Restoration: The Benefits of Historical Studies on Re-Examining the Implemented Restorations in Persepolis](./pdf/Persopolis.pdf)
   - [Photography Class by Audrey Lee Love](./pdf/Photography-Class.pdf)
