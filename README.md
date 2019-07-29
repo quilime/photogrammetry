@@ -18,7 +18,7 @@ ig: [@gabrieldunne](https://instagram.com/gabrieldunne)
 
 ## What is Photogrammetry?
 
-Photogrammetry is the process of creating 3D objects from 2D photographs. The process can be used to scan anything from objects and people, to architecture, terrain and landscapes. There are various strategies you can use when taking photos to get accurate scans. This workshop will go over photography techniques, ideal camera settings and lighting, using photogrammetry software, and further resources to create accurate 3D models from photos.
+Photogrammetry is the process of creating 3D objects from 2D photographs. The process can be used to scan anything from objects and people, to architecture, terrain and landscapes. There are various strategies you can use when taking photos to produce accurate models. This document includes photography techniques, ideal camera settings and lighting, photogrammetry software, and further resources to create 3D models from photos.
 
 ![](./img/sfm.png)
 
