@@ -4,35 +4,19 @@ title: Intro to Photogrammetry
 permalink: index.html
 ---
 
-# Introduction to Photogrammetry
+# Intro to Photogrammetry
 
 ### Gray Area Festival 2019
 
-Gabriel Dunne  
-email [gabe@gabrieldunne.com](mailto:gabe@gabrieldunne.com)  
-www [gabrieldunne.com](http://gabrieldunne.com)  
-twitter [@gabrieldunne](https://twitter.com/gabrieldunne)  
-ig [@gabrieldunne](https://instagram.com/gabrieldunne)  
+Author: Gabriel Dunne  
+email: [gabe@gabrieldunne.com](mailto:gabe@gabrieldunne.com)  
+www: [gabrieldunne.com](http://gabrieldunne.com)  
+twitter: [@gabrieldunne](https://twitter.com/gabrieldunne)  
+ig: [@gabrieldunne](https://instagram.com/gabrieldunne)  
 
 ![](./img/screen.PNG)
 
 ###### Headlands Bunker Scan (Dense Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
-
-## Prerequsite Materials
-
-  - Computer
-  - Camera
-  - [Agisoft Metashape Professional Edition](https://www.agisoft.com/downloads/installer/) (30 Day Trial)
-
-## Schedule
-
-  Class time: **2p - 5p** (3 hours)
-
-  - **2p - 2:20p** - Intro & Orientation (20 min)
-  - **2:20p - 3p** - Capturing/processing demo (40 min)
-  - **3p - 3:50** - Self-Initiation Scanning projects. Indoor, or Outdoor. Do multiple scans! (50 min)
-  - **3:50 - 4:40** - Image processing (50 min)
-  - **4:40 - 5pm** - Project Sharing, Wrap up (20 min)
 
 ## What is Photogrammetry?
 
@@ -153,6 +137,8 @@ Laser scanning is great in cases where photogrammetric techniques often fail -- 
   - Prioritize object texture.
   - Avoid plain/monotonous or glittering/reflective surfaces. 
   - Avoid harsh shadows or high contrast areas. These may be confused with geometry by the alignment software.
+  - Avoid shiny, glittery surfaces.
+  - Avoid anything with a [specular highlight](https://en.wikipedia.org/wiki/Specular_reflection) that changes as the camera view moves
   - Start with the entire scene or object, and gradually hone in on details
   - Complete loops. Go around objects and end up where you started
   - Pictures are processed in order, so stay organized
@@ -169,7 +155,7 @@ Laser scanning is great in cases where photogrammetric techniques often fail -- 
 ###### Headlands Rock Scan, (Sparse Point Cloud). Agisoft Screenshot. Source: [Gabriel Dunne](http://gabrieldunne.com) 2019
 
 
-The best way to learn is to practice! Here are some ideas for things to scan.
+The best way to learn is to practice. Here are some ideas for things to scan.
 
   - A rock
   - Statue or a monument
@@ -188,47 +174,6 @@ The best way to learn is to practice! Here are some ideas for things to scan.
   - A plant
   - Food
   - Terrain with a Drone
-
-## Processing with Metashape
-
-![](./img/screen3.PNG)
-
-###### Headlands Bunker Scan (Sparse Cloud with Image Planes), Agisoft Screenshot. Source: [Okaynokay, Twilight Engines](http://oknk.studio/twilightengines) 2019
-
-
-
-  - Import photos
-    - Drag in individual photos or entire folder into a "chunk" in your Workspace
-    - Organize various scans with separate chunks, if necessary.
-  - Inspect loaded images in the Photos tab, removing unnecessary images
-    - Cull bad or out of focus images.
-    - Cull duplicates
-  - Workflow -> Align photos
-    - Use low accuracy for testing. The higher the accuracy, the longer the process.
-    - Inspect and remove up any images that create issues
-  - Workflow -> Build dense cloud
-    - Increasing quality increases processing time. Medium or Low Quality is good for testing. 
-  - Clean up Points with Manual Selection
-    - Manually delete points that are irrelevant to your scan or possible errors
-    - This step can be done any time between aligning photos and building the dense cloud
-  - Build mesh
-    - Generates a 3D mesh for export
-    - Source: Dense Cloud
-    - Surface Type: Arbitrary (3D)
-  - Generate texture
-    - Creates UV map and applies graphic texture from photos
-  - Export 3D Mesh
-    - Optionally include texture
-  - View in Agisoft Viewer
-    - Included in MetaShape download
-
-
-
-## Free 3D Modeling Software Suggestions
-
-  - [Meshlab](http://www.meshlab.net/), Free
-  - [Meshmixer](http://www.meshmixer.com/), Free
-  - [Blender](https://www.blender.org/), Free
 
 ## Photogrammatry Software
 
@@ -250,13 +195,17 @@ The best way to learn is to practice! Here are some ideas for things to scan.
   - [Photomodeler](https://www.photomodeler.com/index.html), Commercial
   - [3DF Zephyr](https://www.3dflow.net/), Commercial
 
+## Free 3D Modeling Software Suggestions
+
+  - [Meshlab](http://www.meshlab.net/), Free
+  - [Meshmixer](http://www.meshmixer.com/), Free
+  - [Blender](https://www.blender.org/), Free
 
 ## Articles and References
 
 ![](./img/oculus_artificialis_02.jpg)
 
 ###### Illustration from Oculus artificialis teledioptricus sive Telescopium, Johann Zahn 1685, Source: [Public Domain](https://publicdomainreview.org/collections/images-from-johann-zahns-oculus-artificialis-1685/)
-
 
 These articles are for reference and educational use. I claim no ownership or rights to this material.
 
