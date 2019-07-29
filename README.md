@@ -193,11 +193,11 @@ The best way to learn is to practice. Here are some ideas for things to scan.
   - [Photomodeler](https://www.photomodeler.com/index.html), Commercial
   - [3DF Zephyr](https://www.3dflow.net/), Commercial
 
-## Free 3D Modeling Software Suggestions
+## Free 3D Modeling, Mesh Manipulation Software Suggestions
 
-  - [Meshlab](http://www.meshlab.net/), Free
+  - [Meshlab](http://www.meshlab.net/), Free, Open Source
+  - [Blender](https://www.blender.org/), Free, Open Source  
   - [Meshmixer](http://www.meshmixer.com/), Free
-  - [Blender](https://www.blender.org/), Free
 
 ## Articles and References
 
