@@ -6,8 +6,6 @@ permalink: index.html
 
 # Intro to Photogrammetry
 
-### Gray Area Festival 2019
-
 Author: Gabriel Dunne  
 email: [gabe@gabrieldunne.com](mailto:gabe@gabrieldunne.com)  
 www: [gabrieldunne.com](http://gabrieldunne.com)  
