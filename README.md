@@ -173,7 +173,7 @@ The best way to learn is to practice. Here are some ideas for things to scan.
   - Food
   - Terrain with a Drone
 
-## Photogrammatry Software
+## Photogrammatry Solutions/Apps/Software
 
   - [AliceVision](https://alicevision.org)  - Free, Open Source
   - [COLMAP](https://colmap.github.io/index.html) - Free, Open Source
@@ -194,6 +194,7 @@ The best way to learn is to practice. Here are some ideas for things to scan.
   - [3DF Zephyr](https://www.3dflow.net/), Commercial
   - [Trnio](https://www.trnio.com/), iOS
   - [3D Scanner for ARCore](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner), Android
+  - [In3D](https://in3d.io/), Body Scanning
 
 ## Free 3D Modeling, Mesh Manipulation Software Suggestions
 
