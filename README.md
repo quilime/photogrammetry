@@ -192,7 +192,8 @@ The best way to learn is to practice. Here are some ideas for things to scan.
   - [Pix4D](https://pix4d.com/), Commercial
   - [Photomodeler](https://www.photomodeler.com/index.html), Commercial
   - [3DF Zephyr](https://www.3dflow.net/), Commercial
-  - [Trnio](https://www.trnio.com/), Commercial App, Cloud-based
+  - [Trnio](https://www.trnio.com/), iOS
+  - [3D Scanner for ARCore](https://play.google.com/store/apps/details?id=com.lvonasek.arcore3dscanner), Android
 
 ## Free 3D Modeling, Mesh Manipulation Software Suggestions
 
